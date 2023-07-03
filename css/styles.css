@@ -13,6 +13,28 @@ body {
   --white-color: #ffffff;
   --iris-color: #4d5ae5;
   --ocean-color: #404bbf;
+  --corn-color: #e7e9fc;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.navigation-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-line {
+  border-bottom: 1px solid var(--corn-color);
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -24,6 +46,7 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   color: var(--iris-color);
+  margin-right: 76px;
 }
 
 .logo-change {
@@ -32,6 +55,11 @@ body {
 
 .list {
   list-style: none;
+}
+
+.page-nav {
+  display: flex;
+  gap: 40px;
 }
 
 .page-nav .link {
@@ -49,6 +77,12 @@ body {
 
 .header-adres {
   font-style: normal;
+  display: flex;
+}
+
+.contacts {
+  display: flex;
+  gap: 40px;
 }
 
 .contacts .link {
@@ -73,6 +107,10 @@ body {
 
 .footer-text {
   color: var(--cloud-color);
+  display: flex;
+  width: 264px;
+  flex-direction: column;
+  flex-shrink: 0;
 }
 
 .main-section {
