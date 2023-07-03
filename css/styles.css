@@ -16,6 +16,27 @@ body {
   --corn-color: #e7e9fc;
 }
 
+.h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
 .container {
   width: 1158px;
   margin: 0 auto;
@@ -30,6 +51,8 @@ body {
 
 .top-line {
   border-bottom: 1px solid var(--corn-color);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .navigation {
@@ -46,7 +69,7 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   color: var(--iris-color);
-  margin-right: 76px;
+  display: flex;
 }
 
 .logo-change {
@@ -55,11 +78,17 @@ body {
 
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 24px;
+  display: flex;
 }
 
 .page-nav {
   display: flex;
   gap: 40px;
+  margin: 0 auto;
+  padding-left: 76px;
 }
 
 .page-nav .link {
@@ -83,6 +112,8 @@ body {
 .contacts {
   display: flex;
   gap: 40px;
+  margin: 0 auto;
+  padding-left: 0;
 }
 
 .contacts .link {
@@ -99,6 +130,8 @@ body {
 
 .bottom {
   background-color: var(--navy-color);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .logo-change-footer {
@@ -115,6 +148,8 @@ body {
 
 .main-section {
   background-color: var(--navy-color);
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .main-title {
@@ -141,9 +176,9 @@ body {
   cursor: pointer;
   display: block;
   padding: 16px 32px;
-  border: 0;
+  border: none;
   border-radius: 4px;
-  box-shadow: 0px 4px 4px 0px;
+  box-shadow: rgba(0, 0, 0, 0.15);
   margin: 0 auto;
 }
 
@@ -152,12 +187,22 @@ body {
   background-color: var(--ocean-color);
 }
 
+.prof-section {
+  padding-top: 120px;
+  padding-bottom: 101px;
+}
+
 .prof-title {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-color);
+  margin-bottom: 8px;
+}
+
+.section-projects {
+  padding-bottom: 120px;
 }
 
 .section-projects .title {
@@ -168,10 +213,13 @@ body {
   text-transform: capitalize;
   color: var(--navy-color);
   text-align: center;
+  margin-bottom: 72px;
 }
 
 .section-our-team {
   background-color: var(--cloud-color);
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .section-our-team .title {
@@ -182,6 +230,7 @@ body {
   text-transform: capitalize;
   color: var(--navy-color);
   text-align: center;
+  margin-bottom: 72px;
 }
 
 .our-team-list {
