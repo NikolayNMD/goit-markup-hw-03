@@ -139,6 +139,8 @@ h6 {
 
 .logo-change-footer {
   color: var(--cloud-color);
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-text {
@@ -189,6 +191,10 @@ h6 {
 .main-button:hover,
 .main-button:focus {
   background-color: var(--ocean-color);
+}
+
+.prof-list list {
+  width: calc((100% - 72px) / 4);
 }
 
 .prof-section {
