@@ -98,6 +98,8 @@ img {
   font-style: normal;
   text-decoration: none;
   color: var(--navy-color);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .page-nav .link:hover,
@@ -124,6 +126,8 @@ img {
   font-style: normal;
   text-decoration: none;
   color: #434455;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .contacts .link:hover,
