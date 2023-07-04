@@ -195,7 +195,7 @@ img {
   background-color: var(--ocean-color);
 }
 
-.prof-list {
+.list .prof-list {
   width: calc((100% - 72px) / 4);
 }
 
@@ -261,6 +261,10 @@ img {
 .our-team-list {
   background-color: var(--white-color);
   border-radius: 0px 0px 4px 4px;
+}
+
+.list .our-team-list {
+  width: calc((100% - 72px) / 4);
 }
 
 .team-title {
