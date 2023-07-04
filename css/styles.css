@@ -47,8 +47,6 @@ img {
 .navigation-container {
   display: flex;
   justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .top-line {
@@ -71,6 +69,8 @@ img {
   color: var(--iris-color);
   display: flex;
   margin-right: 76px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .logo-change {
@@ -89,6 +89,8 @@ img {
   display: flex;
   gap: 40px;
   margin: 0 auto;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .page-nav .link {
@@ -114,6 +116,8 @@ img {
   gap: 40px;
   margin: 0 auto;
   padding-left: 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .contacts .link {
