@@ -56,6 +56,8 @@ img {
 .navigation {
   display: flex;
   align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .logo {
@@ -69,8 +71,6 @@ img {
   color: var(--iris-color);
   display: flex;
   margin-right: 76px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .logo-change {
@@ -89,8 +89,6 @@ img {
   display: flex;
   gap: 40px;
   margin: 0 auto;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .page-nav .link {
@@ -98,8 +96,6 @@ img {
   font-style: normal;
   text-decoration: none;
   color: var(--navy-color);
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .page-nav .link:hover,
@@ -111,6 +107,8 @@ img {
 .header-adres {
   font-style: normal;
   display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .contacts {
@@ -118,16 +116,12 @@ img {
   gap: 40px;
   margin: 0 auto;
   padding-left: 0;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .contacts .link {
   font-style: normal;
   text-decoration: none;
   color: #434455;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .contacts .link:hover,
